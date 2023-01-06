@@ -9,14 +9,13 @@ A Git GUI for [JSBox](https://apps.apple.com/app/id1312014438), based on [isomor
 
 > The base path is `/`, it will point to '/'.  
 > 
-> I changed it to `../`, it will point to `GitBox` directory.  
+> I changed it to `../../`, it will point to `Code` directory. This directory contains all your codes.
 > 
-> If you wanna change to another directory, go to `scripts/util/fs.js`, and modify `../` at line 4, like below:
-> ```js
->   const path = $file.absolutePath("../");
-> ```
->   
-> If you dont wanna change anything, just go `clone` or `Initialize` your repository.
+> All your need is just `Initialize` a current project, or `clone` a new project from a remote repository.
+> 
+> If you have a project like `Test`, choose `Initialize repository` will create `.git` into `Test` directory. 
+> 
+> This step consume my time, so I write here to help next people.
 
 # Security
 
