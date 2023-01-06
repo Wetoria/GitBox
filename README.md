@@ -15,6 +15,8 @@ A Git GUI for [JSBox](https://apps.apple.com/app/id1312014438), based on [isomor
 > ```js
 >   const path = $file.absolutePath("../");
 > ```
+>   
+> If you dont wanna change anything, just go `clone` or `Initialize` your repository.
 
 # Security
 
