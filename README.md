@@ -7,6 +7,15 @@ A Git GUI for [JSBox](https://apps.apple.com/app/id1312014438), based on [isomor
 - Clone the project
 - Run `npm install`
 
+> The base path is `/`, it will point to '/'.  
+> 
+> I changed it to `../`, it will point to `GitBox` directory.  
+> 
+> If you wanna change to another directory, go to `scripts/util/fs.js`, and modify `../` at line 4, like below:
+> ```js
+>   const path = $file.absolutePath("../");
+> ```
+
 # Security
 
 In order to keep you safe, GitBox doesn't store your password and token. Instead, you have to input them every time if authorization is required.
